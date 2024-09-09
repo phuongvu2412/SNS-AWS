@@ -1,0 +1,50 @@
+[
+{
+	"uri": "//localhost:1313/1-creating-a-sns-topic/",
+	"title": "Creating a SNS Topic",
+	"tags": [],
+	"description": "",
+	"content": "Content:\nChoose the SNS Service Add a name for the topic Choose type of the topic Topic create successful Choose the SNS Service Go to the Amazon Web Services (AWS) home page. Click Services in the top left corner. Choose Simple Notification Service. Add a name for the topic On the SNS page, enter the name of the topic. Choose type of the topic Choose the type for the topic: FIFO or Standard. Enter a name. Enter a display name (optional). Click Create topic. Topic create successful We successfully created a topic. "
+},
+{
+	"uri": "//localhost:1313/2-creating-a-subscription/",
+	"title": "Creating a subscription",
+	"tags": [],
+	"description": "",
+	"content": "Content:\nCreating a subscription Add information for the subscription Creating successfully Creating a subscription Go to the Subscription task bar. Click Create Subscription in the right hand side. Add information for the subscription On the Create subscription page choose:\nTopic ARN Protocol (in this case we choose Email) Endpoint (email that we want to send notifications from Amazon SNS) Creating successfully Creating successfully\n"
+},
+{
+	"uri": "//localhost:1313/3-confirming-a-subscription/",
+	"title": "Confirming a subscription",
+	"tags": [],
+	"description": "",
+	"content": "Content:\nConfirming Confirming When subscribing an email address to an SNS topic, AWS requires that the email recipient confirm their subscription to ensure that they consent to receive notifications Pending status User click Confirm Subscription to confirm Status changes from Pending to Confirmed "
+},
+{
+	"uri": "//localhost:1313/4-publishing-message-to-the-topic/",
+	"title": "Publishing message to the topic",
+	"tags": [],
+	"description": "",
+	"content": "Content:\nPublishing message to the topic Message body to send to the endpoint Messaged published to topic successfully Publishing message to the topic Enter Topic ARN (optional). Enter TTL (optional). Message body to send to the endpoint Messaged published to topic successfully Publishing successfully\n"
+},
+{
+	"uri": "//localhost:1313/",
+	"title": "Amazon SNS (Simple Notification Service) Topic and Email Subscription",
+	"tags": [],
+	"description": "",
+	"content": "Amazon SNS (Simple Notification Service) Topic and Email Subscription Overview Amazon Simple Notification Service (SNS) is a fully managed messaging service that enables you to decouple and scale microservices, distributed systems, and serverless applications. SNS allows you to create \u0026ldquo;topics\u0026rdquo; which are communication channels to send messages or notifications to a large number of subscribers.\nKey Steps to Create an SNS Topic and Subscribe an Email 1. Create an SNS Topic: An SNS topic is a logical access point that acts as a communication channel. You can create a topic using the AWS Management Console, AWS CLI, or SDKs. When creating a topic, specify a name and configure settings such as access policies, delivery retry policies, and more. 2. Subscribe an Email Address to the Topic: Once the topic is created, you can add subscriptions to it. In this case, the subscription type is \u0026ldquo;email.\u0026rdquo; The specified email address will receive a confirmation request. The subscription is only active after the recipient confirms it by clicking on the link in the email. Main Content Creating a SNS Topic Creating a subscription Confirming a subscription Publishing message to the topic "
+},
+{
+	"uri": "//localhost:1313/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "//localhost:1313/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
